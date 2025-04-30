@@ -1,1 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kurenaido&display=swap');
+* {
+
+   font-family: Arial, Verdana, sans-serif;
+  color: #333;
+  text-align: center;
+  box-sizing: border-box;}
+			
+body {
+  width: 90%;
+  margin: 0 auto;
+  background-image: url('https://images.pexels.com/photos/262713/pexels-photo-262713.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;}
+
+#header h1 {
+  font-family: 'Zen Kurenaido', sans-serif;
+  font-size: 2.5em;
+  color: #2e5939;
+  margin-top: 0.5em;
+}
+
+#nav, #footer {
+  background-color: #cfe7d0; 
+  padding: 0.5em 0;
+  margin: 1%;
+}
+
+li {
+  display: inline;
+  padding: 0.5em;
+}
+
+.article {
+  width: 31.3%;
+  float: left;
+  margin: 1%;
+  height: 10em;
+}
+
+
+#feature {
+  background-image: url('https://images.pexels.com/photos/4491557/pexels-photo-4491557.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: contain;
+  background-position: right;
+  background-repeat: no-repeat;
+  padding: 1em;
+  height: 12em;
+  margin-bottom: 1em;
+  text-align: left;
+  background-color:#dfdbda;
+
+}
+
+			
+#content {
+  overflow: auto;}
+ 
+#nav, #feature, #footer {
+  margin: 1%;}
+			
+.column1, .column2, .column3 {
+  width: 31.3%;
+  float: left;
+}
+
+.column1 {
+  background-color: #e1f4dc;
+}
+
+.column2 {
+  background-color: #d0f0c0; 
+}
+			
+.column3 {
+  margin-right: 0%;
+background-color: #b2d8b2; 
+}
+			
+			
+
+
 
