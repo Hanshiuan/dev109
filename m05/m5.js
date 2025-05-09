@@ -1,10 +1,7 @@
-var table = prompt("please rnter a nimber from 0 to 10:"); // Ask the user to a number 0-10
-
-
-table=parseInt(table); // convert the input to an integer
+var table = prompt("enter a number between 0 to 10:"); // Ask the user to a number 0-10
 
 if (table===null|| isNaN(table)) { table=0;}  
-else{ table =Number(table);}  //if the input is null,set it to 0
+else { table =Number(table);}  //if the input is null,set it to 0
 
 var msg = "<h2>Multiplication Table</h2>"; // a heading for the table
 
