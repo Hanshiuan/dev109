@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Artifact #3- Rhombus">
+  <title>a3-Create a rhombus</title>
+  
+</head>
+<body>
+  <h1>HanShiuan Che</h1>
+
+  <label>What is the size of Rhombus?</label>
+  <input type="text" id="rHeight" value="5" size="5"><br>
+  
+
+  <label>Choose color for Even position:</label><br>
+  <select id="colorEven">
+    <option value="blue">Blue</option>
+    <option value="red">Red</option>
+    <option value="orange">Orange</option>
+  </select><br><br>
+
+  <label>Choose color for Odd position:</label><br>
+  <select id="colorOdd">
+    <option value="green">Green</option>
+    <option value="pink">Pink</option>
+    <option value="purple">Purple</option>
+  </select><br><br>
+
+  <label>Choose symbol:</label><br>
+  <select id="symbol">
+    <option value="*">*</option>
+    <option value="#">#</option>
+    <option value="@">@</option>
+  </select><br><br>
+
+  <button onclick="createRhombus()">Draw Rhombus</button>
+
+  <div id="rhombusOutput"></div>
+
+<button onclick="createRhombus()">Draw Rhombus</button>
+
+  <div id="rhombusOutput"></div>
+<script src="rhombus.js"></script>
+</body>
+</html>
