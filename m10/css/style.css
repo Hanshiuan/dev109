@@ -1,0 +1,13 @@
+body {
+  height: 200px;
+  background: beige;
+  margin: 0;
+  font-family: sans-serif;
+  position: relative;
+  padding: 20px;
+}
+
+.dot {
+  position: absolute;
+  border-radius: 50%;
+}
