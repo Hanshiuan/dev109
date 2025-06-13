@@ -8,6 +8,10 @@ body {
 
 .carousel {
   margin-top: 20px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
 }
 
 #slideshow {
