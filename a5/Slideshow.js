@@ -19,6 +19,7 @@ let countdown = 4;
 let timerInterval = null;
 
 const img = document.getElementById("slideshow");
+const caption = document.getElementById("caption");
 const timerDisplay = document.getElementById("timer");
 const autoCheckbox = document.getElementById("auto");
 
