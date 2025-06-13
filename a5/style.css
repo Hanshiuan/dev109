@@ -1,0 +1,45 @@
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background-color: #f0f8ff;
+  margin: 0;
+  padding: 20px;
+}
+
+.carousel {
+  margin-top: 20px;
+}
+
+#slideshow {
+  width: 400px;
+  height: 300px;
+  object-fit: cover;
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+#caption {
+  margin: 10px 0;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+
+.buttons {
+  margin: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1em;
+  margin: 5px;
+}
+
+#timer {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
